@@ -6,7 +6,7 @@ var logger = require('morgan');
 var carrerasRouter = require('./routes/carreras');
 var materiasRouter = require('./routes/materia');
 var alumnosRouter = require('./routes/alumno');
-var alumnosMateriasRouter = require('./routes/alumno');
+var alumnosMateriasRouter = require('./routes/alumnosMaterias');
 
 
 var app = express();
